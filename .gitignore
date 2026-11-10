@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.vscode/
+contraseñas.txt
+*.txt
+*/*txt
+**/*.txt
+credenciales/*.txt
