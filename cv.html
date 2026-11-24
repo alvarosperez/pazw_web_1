@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Álvaro Sánchez</title>
 </head>
+
 <body>
     <header>
         <h1>Álvaro Sánchez</h1>
@@ -12,17 +14,35 @@
 
         <img src="img/perfil.jpeg" alt="foto de Álvaro Sánchez" width="150px">
         <div>
-            <img src="https://universidadeuropea.com/resources/media/images/prof-alvaro-sanchez-p.2e16d0ba.fill-400x320.format-webp.webp" alt="foto de Álvaro Sánchez" width="150px">
+            <img src="https://universidadeuropea.com/resources/media/images/prof-alvaro-sanchez-p.2e16d0ba.fill-400x320.format-webp.webp"
+                alt="foto de Álvaro Sánchez" width="150px">
         </div>
 
-        <p>Desarrollador web <strong>Full Stack</strong> recién licenciado en Telemática. De prácticas en Telefónica i+D</p>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/cREKCUsStbA?si=I077UtYG2iMQxyjg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+
+        <p>Desarrollador web <strong>Full Stack</strong> recién licenciado en Telemática. De prácticas en Telefónica i+D
+        </p>
+
+        <p>
+            <video controls width="640" height="360">
+                <source src="./img/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+                Tu navegador no admite vídeo.
+            </video>
+        </p>
     </header>
 
     <main>
         <h2>Experiencia</h2>
         <h3>Prácticas en Telefónica i+D</h3>
-        <p>En el departamento de <em>Big Data</em>, especializándome en <i>Visualización de Datos</i> con  web.</p>
-   
+        <p>En el departamento de <em>Big Data</em>, especializándome en <i>Visualización de Datos</i> con web.</p>
+
         <h3>Prácticas en la universidad</h3>
         <p>Prácticas internas en la universidad, en el departamento de tecnología.</p>
 
@@ -44,6 +64,29 @@
             <p>Web de crowdfunding…</p>
         </details>
 
+        <h2>Idiomas</h2>
+        <table>
+            <caption>Idiomas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Idioma</th>
+                    <th scope="col">Hablado</th>
+                    <th scope="col">Escrito</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Inglés</th>
+                    <td>C1</td>
+                    <td>B2</td>
+                </tr>
+                <tr>
+                    <th scope="row">Francés</th>
+                    <td colspan="2">C1</td>
+                </tr>
+            </tbody>
+        </table>
+
         <button popovertarget="info">Más info</button>
         <div id="info" popover>
             ¡Hola! Soy un popover.
@@ -59,4 +102,5 @@
         <a href="otras_webs/contact.html">Contacto</a>
     </footer>
 </body>
+
 </html>

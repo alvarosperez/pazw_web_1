@@ -9,5 +9,47 @@
     Mi contacto:
     ----
     <a href="alvaro.sanchez@universidadeuropea.es">Mi email de contacto!</a>
+
+    <hr>
+
+    <div>
+        <form action="/enviar" method="get">
+            <fieldset>
+                <legend>Turno preferido</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" minlength="3" maxlength="20" placeholder="tu nombre" autocomplete="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <fieldset>
+                <legend>Turno preferido</legend>
+                <input type="radio" id="m" name="turno" value="manana">
+                <label for="m">Mañana</label>
+                <input type="radio" id="t" name="turno" value="tarde">
+                <label for="t">Tarde</label>
+            </fieldset>
+
+            <label for="pais">País</label>
+            <select id="pais" name="pais">
+                <option value="es">España</option>
+                <option value="mx">México</option>
+            </select>
+
+            <p>
+                <textarea id="mensaje" name="mensaje"></textarea>
+            </p>
+
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+                <button>Otro</button>
+            </div>
+        </form>
+        <button>Otro</button>
+    </div>
 </body>
 </html>
